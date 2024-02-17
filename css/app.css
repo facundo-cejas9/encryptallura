@@ -1,0 +1,480 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #F3F5FC;
+   
+
+}
+
+main {
+    
+    width: min(75%, 120rem);
+    margin: 5rem auto;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+
+
+
+/* SideBar */
+.sidebar {
+    margin-right: 15rem;
+}
+
+
+
+.sidebar_content {
+    margin-top: 1rem;
+    width: 400px;
+    height: 900px;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 10px 1px rgba(68, 67, 67, 0.171);
+}
+
+/*Textarea e input */
+
+.area {
+    border: none;
+    color: black;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.content {
+    position: relative;
+    padding-top: 15rem;
+   
+
+}
+
+.content p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+}
+
+
+
+/* Logo Allura */
+
+.img {
+    height: 4rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+
+
+/*Textarea e input */
+
+.text-input {
+    height: 2rem;
+    margin-left: 17rem;
+    margin-top: 5rem;
+
+}
+
+
+.textAreaLetras {
+    font-size: 2.3rem;
+    border: none;
+    outline: none;
+    width: 80%;
+    background-color: #F3F5FC;
+    color: #003678;
+    line-height: 150%;
+    resize: none;
+    padding-top: 2rem;
+    text-transform: lowercase;
+}
+
+.textAreaLetras::placeholder {
+    color: #0A3871;
+    opacity: .5;
+}
+
+.left-content {
+    margin-left: 250px;
+    margin-top: 25rem;
+}
+
+.lowerCaseContent {
+    display: flex;
+}
+
+
+
+
+.informationLowerCase {
+    margin-bottom: 5rem;
+    color: #495057;
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+
+}
+
+.parrafo-title {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+
+.parrafo-subtitle {
+    margin-top: 3rem;
+    font-size: 1rem;
+    color: #495057;
+    text-align: center;
+}
+
+
+/*Buttons */
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+
+.btn-encriptar {
+    width: 40%;
+    align-self: center;
+    background-color: #0a3871;
+    text-transform: uppercase;
+    padding: 1.2rem;
+    border: 1px solid #0a3871;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    font-size: 1rem;
+    transition: ease-in  2ms;
+    -webkit-transition: ease-in  2ms;
+    -moz-transition: ease-in  2ms;
+    -ms-transition: ease-in  2ms;
+    -o-transition: ease-in  2ms;
+    transition: all 235ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn-encriptar:hover {
+    background-color: #ffffff;
+    transition: all 235ms ease-in-out;
+    color: black;
+    
+}
+
+
+.btn-desencriptar {
+    width: 40%;
+    align-self: center;
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 1.2rem;
+    border: 1px solid #0a3871;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    font-size: 1rem;
+    transition: ease-in  2ms;
+    -webkit-transition: ease-in  2ms;
+    -moz-transition: ease-in  2ms;
+    -ms-transition: ease-in  2ms;
+    -o-transition: ease-in  2ms;
+    transition: all 235ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn-desencriptar:hover {
+    background-color: #0A3871;
+
+    color: white;
+}
+
+.copiar {
+    padding: 1rem;
+    text-align: center;
+    width: 40%;
+    margin-left: 7rem;
+    margin-top: 5rem;
+    align-self: center;
+    background-color: #fff;
+    background-size: 4px 3px;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 1px;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    margin-right: 3rem;
+}
+
+.copiar:hover {
+    background-color: #0A3871;
+    ;
+    color: white;
+}
+
+
+
+
+/* Mensajes desencryptados */
+
+.textArea {
+    border: none;
+    outline: none;
+    width: 80%;
+    resize: none;
+    font-size: 1.7rem;
+    color: #0A3871;
+    text-align: center center;
+    padding-top: 2rem;
+    height: 370px;
+    margin-left: 3rem;
+}
+
+.textArea::placeholder {
+    color: #0A3871;
+    font-size: 2rem;
+    opacity: .5;
+}   
+
+.ocultar {
+    display: none;
+}
+
+.resultado {
+    display: none;
+}
+
+/* Media query desktop 1400x900 */ 
+
+
+@media (max-width: 1600px) {
+    .sidebar {
+        margin-right: 10rem;
+    }
+
+    .text-input {
+        margin-left: 2rem;
+    }
+
+    .sidebar_content {
+        height: 95vh;
+    }
+
+    .left-content {
+        margin-left: 2rem;
+        
+    }
+}
+ 
+
+/* Media Query Tablet */
+
+@media (max-width: 1200px) {
+
+    main {
+    
+        width: min(100%);
+        padding-right: 2rem;
+        margin-bottom: 1rem;
+        height: 100%;
+        
+    }
+
+    .container {
+       flex-direction: column;
+       
+    }
+
+    .text-input {
+        margin-left: 5rem;
+    }
+
+    .textAreaLetras  {
+        width: 100%;
+    }
+
+    .sidebar {
+        margin-right: 0rem;
+    }
+  
+
+    .left-content {
+        margin-left: 3rem;
+    }
+
+    .parrafo {
+        margin-bottom: 2rem;
+    }
+
+    .btn-encriptar {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 100%;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .sidebar {
+        display: flex;
+    }
+
+    
+
+    .sidebar_content {
+        height: 250px;
+        width: 100%;
+        margin: 1rem;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+        
+}
+
+    .content img {
+        display: none;
+    }
+
+
+    .content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding-top: 3.8rem;
+    }
+
+    .text-input {
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+
+    .textArea {
+        position: absolute;
+        padding-top: 0px;
+        top: 20px;
+        height: 50%;
+    }
+
+    .informationLowerCase {
+        margin-bottom: 2rem;
+    }
+
+    .parrafo-subtitle {
+        margin-top: 1rem;
+    }
+
+    .copiar {
+
+        
+        width: 80%;
+        margin-left: 5rem;
+        margin-top: 7rem;
+        padding: 1rem;
+        
+    }
+
+
+  }
+
+  @media (max-width: 600px) {
+    
+    main {
+        margin-top: 10px;
+        
+       
+    }
+
+    
+    .buttons {
+        display: inline-block;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .left-content {
+        margin-top: 16rem;
+        
+    }
+
+    .textAreaLetras {
+        font-size: 1.5rem;
+    }
+
+    .informationLowerCase {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    .btn-desencriptar {
+        margin-top: 2rem;
+    }
+
+    .contenedor-copia {
+        width: 100%
+    }
+
+    .copiar {
+        margin-left: 3rem;
+        margin-top: 6rem;
+        padding: .3rem;
+        font-size: 10px;
+    }
+
+    .parrafo-title {
+        margin-top: 0;
+        font-size: 2rem;
+    }
+
+    .parrafo-subtitle {
+        margin-top: 2rem;
+        line-height: 2px;
+    }
+    .sidebar_content {
+        height: 220px;
+    }
+
+    .sidebar {
+        height: 5vh;
+    }
+
+}
